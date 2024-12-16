@@ -1,0 +1,90 @@
+body{
+	width: 100%;
+    min-height: 100vh;
+    background:url('image/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	font-size:18px;
+	color:#444;
+	font-family: Roboto Condensed;
+}
+ 
+.content{
+	width: 80%;
+	margin: 10px auto;
+}
+ 
+header{
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 10px;
+}
+
+.menu{
+	background: linear-gradient(rgba(150, 75, 0), rgba(0,0,0,.3));
+	border: 3px solid #FFFFFF;
+	border-radius: 8px;	
+	margin-bottom: 10px;
+}
+ 
+div.menu ul {
+	list-style:none;
+	overflow: hidden;
+}
+ 
+div.menu ul li {
+	float:left;		
+}
+ 
+div.menu ul li a {
+	display:block;	
+	padding:0 20px;
+	text-decoration:none;
+	color:#FFFFFF;
+	font-family: Roboto Condensed;
+	font-size:18px;
+	font-weight:400;
+	transition:all 0.3s ease-in-out;
+}
+ 
+div.menu ul li a:hover,
+div.menu ul li a.hoverover {	
+	cursor: pointer;	
+	color:#964B00;
+}
+ 
+div.main{
+	background: linear-gradient(rgba(255, 255, 255), rgba(0,0,0,.3));
+	border-radius: 5px;
+	border: 0px;
+	margin-bottom: 10px;
+	font-family: Roboto Condensed;
+    font-size: 16px;
+    color: #964B00;
+}
+ 
+div.page{
+	text-align: left;
+	padding: 20px 20px;	
+}
+
+div.text{
+	text-align: left;
+	color:#000;
+	font-family: Roboto Condensed;
+    font-size: 18px;
+	padding: 0px 20px;
+}
+
+footer{
+	background: linear-gradient(rgba(150, 75, 0), rgba(0,0,0,.3));
+	padding: 0px 10px;
+	border-radius: 8px;
+	border: 3px solid #FFFFFF;
+	margin-bottom: 5px;
+	text-align: center;
+	color:#FFFFFF;
+  }

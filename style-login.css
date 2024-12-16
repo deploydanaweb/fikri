@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Abril+Fatface|Noto+Sans|Ubuntu|Parkinsans|Roboto+Condensed|Poppins&effect=shadow-multiple|outline');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto Condensed;
+}
+ 
+body {
+    width: 100%;
+    min-height: 100vh;
+    background:url(image/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.container {
+    width: 400px;
+    min-height: 400px;
+    background: linear-gradient(rgba(150, 75, 0), rgba(0,0,0,.3));
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40px 30px;
+    font-family: Roboto Condensed;
+}
+ 
+.container .login-text {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+ 
+.container .login-email .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+}
+ 
+.container .login-email .input-group input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #FFFFFF;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    outline: none;
+    transition: .3s;
+}
+ 
+.container .login-email .input-group input:focus, .container .login-email .input-group input:valid {
+    border-color: #964B00;
+}
+ 
+.container .login-email .input-group .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #AC6730;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: .3s;
+}
+ 
+.container .login-email .input-group .btn:hover {
+    transform: translateY(-5px);
+    background: #964B00;
+}
+ 
+.login-register-text {
+    color: #FFFFFF;
+    font-family: Roboto Condensed;
+    text-align: center;
+}
+ 
+.login-register-text a {
+    text-decoration: none;
+    color: #964B00;
+    font-family: Roboto Condensed;
+}
+
+.login-password-text {
+    color: #FFFFFF;
+    font-family: Roboto Condensed;
+    text-align: left;
+}
+
+.container-logout {
+    width: 500px;
+    min-height: 200px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40px 30px;
+}
+ 
+.container-logout .login-email .input-group .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #A29BFE;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 20px;
+}
+ 
+.container-logout .login-email .input-group .btn:hover {
+    transform: translateY(-5px);
+    background: #FFFFFF;
+}
+ 
+@media (max-width: 430px) {
+    .container {
+        width: 300px;
+    }
+}
